@@ -47,7 +47,7 @@
     <h1>Student Help</h1>
     <div id="motd"></div>
     <script>
-        fetch('https://raw.githubusercontent.com/GlitchedDaKittyCatSchoolaccount/Glitched-Studios-Student-Help-Website/main/assets/motd.txt')
+        fetch('/assets/motd.txt')
             .then(response => response.text())
             .then(text => {
                 document.getElementById('motd').innerHTML = text;
