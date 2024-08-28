@@ -25,7 +25,7 @@ gsap.fromTo( // i have no clue what this is
   
 
   const audio = document.getElementById("audio");
-  audio.volume = 0.8;
+  audio.volume = 0.9;
   
   const titleElement = document.getElementById("title");
   const titleText = "NSM Official Website";
