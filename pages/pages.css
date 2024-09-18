@@ -10,7 +10,6 @@ body {
     background-attachment: fixed;
     background-position: 50% 50%;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 h1 {
