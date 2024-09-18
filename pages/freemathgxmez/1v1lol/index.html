@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <head>
+            <title>High School | CAYUGA WILDCATS</title>
+            <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" type="image/png" />
+            <link rel="shortcut icon" href="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" type="image/png" />
+            <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" type="image/png" />
+            <link rel="canonical" href="https://www.cayugaisd.com/high-school" />
+            <meta property="og:title" content="High School  | CAYUGA WILDCATS" />
+            <meta property="og:image" content="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fit/w_2500,h_1330,al_c/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" />
+            <meta property="og:image:width" content="2500" />
+            <meta property="og:image:height" content="1330" />
+            <meta property="og:url" content="https://www.cayugaisd.com/high-school" />
+            <meta property="og:site_name" content="CAYUGA WILDCATS" />
+            <meta property="og:type" content="website" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="High School  | CAYUGA WILDCATS" />
+            <meta name="twitter:image" content="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fit/w_2500,h_1330,al_c/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" />
+            <link rel="stylesheet" href="/pages/pages.css">
+        </head>
+<body>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 4,
+            color: '#0aeef4',
+            removeDefaultCursor: true,
+        })
+    </script>
+    <div class="navbar">
+        <div class="logo">
+            <span>Student Help | <spoiler>1v1.lol</spoiler></span>
+        </div>
+        <div class="nav-right">
+            <a href="/pages/main.html">Home</a>
+            <a href="/pages/funmathgames.html">Games</a>
+            <a href="/pages/calculator.html">Apps</a>
+            <a href="/pages/coolmath.html">Proxy</a>
+            <a href="/pages/extramath.html">Extra</a>
+        </div>
+    </div>
+    <style>
+#allb, #fullscreen, #abcloak, #discord, #confirmtab, #setkeybind {
+  font-family: notitle;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+#allb:hover, #fullscreen:hover, #abcloak:hover, #confirmtab:hover, #setkeybind:hover {
+  border: 4px solid white;
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+  transition: all .2s ease-in-out; 
+}
+
+#allb:disabled, #fullscreen:disabled, #abcloak:disabled, #confirmtab:disabled, #setkeybind:disabled {
+  font-size: 1.2em;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: not-allowed;
+  background-color: #262626;
+  color: #fff;
+  border: 4px solid #545454;;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+  z-index:9999;
+}
+
+#allb:hover:disabled, #fullscreen:hover:disabled, #abcloak:hover:disabled, #confirmtab:hover:disabled, #setkeybind:hover:disabled {
+  cursor: not-allowed;
+}
+.gameframe {
+  width: 100%;
+  height: 80vh;
+  max-height: 600px;
+  border-radius: 20px;
+  border-color: white;
+  z-index: 9998;
+  position: relative;
+  overflow: hidden;
+}
+.buttons-here {
+  text-align: center;
+  border: 40px white;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  position: relative;
+  gap: 10px; 
+  z-index: 9998;
+ }
+    </style>
+
+    <h1>1v1.lol</h1>
+    <div class="buttons-here"></div>
+        <button id="fullscreen">Fullscreen</button>
+        <button id="allb" onclick="document.getElementById('gameframe').src = document.getElementById('gameframe').src;">Refresh</button>
+    </div>
+    <iframe id="gameframe" class="gameframe" src="/pages/math/1v1lol/"></iframe>
+    <script>
+        document.getElementById('fullscreen').addEventListener('click', function() {
+            var iframe = document.getElementById('gameframe');
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) {
+                iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) { 
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) {
+                iframe.msRequestFullscreen();
+            }
+        });
+    </script>
+</body>
+
+</html>
