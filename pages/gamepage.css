@@ -41,11 +41,10 @@
     border-radius: 20px;
     border-color: white;
     z-index: 9998;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute;
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%);
   }
   .buttons-here {
     text-align: center;
