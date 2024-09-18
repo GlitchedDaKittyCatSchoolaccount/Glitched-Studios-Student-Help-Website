@@ -1,0 +1,56 @@
+#allb, #fullscreen, #abcloak, #discord, #confirmtab, #setkeybind {
+    font-family: notitle;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  }
+  
+  #allb:hover, #fullscreen:hover, #abcloak:hover, #confirmtab:hover, #setkeybind:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    transition: all .2s ease-in-out; 
+  }
+  
+  #allb:disabled, #fullscreen:disabled, #abcloak:disabled, #confirmtab:disabled, #setkeybind:disabled {
+    font-size: 1.2em;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: not-allowed;
+    background-color: #262626;
+    color: #fff;
+    border: 4px solid #545454;;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+    z-index:9999;
+  }
+  
+  #allb:hover:disabled, #fullscreen:hover:disabled, #abcloak:hover:disabled, #confirmtab:hover:disabled, #setkeybind:hover:disabled {
+    cursor: not-allowed;
+  }
+  .gameframe {
+    width: 90%;
+    height: 80vh;
+    max-height: 600px;
+    border-radius: 20px;
+    border-color: white;
+    z-index: 9998;
+    position: relative;
+    overflow: hidden;
+  }
+  .buttons-here {
+    text-align: center;
+    border: 40px white;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    position: relative;
+    gap: 10px; 
+    z-index: 9998;
+   }
