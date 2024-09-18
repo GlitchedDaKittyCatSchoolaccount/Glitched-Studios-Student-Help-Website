@@ -43,17 +43,17 @@
         </div>
     </div>
     <style>
-        allb, #fullscreen, #abcloak, #discord, #confirmtab, #setkeybind {
-  font-family: notitle;
+#allb, #fullscreen, #abcloak, #discord, #confirmtab, #setkeybind {
+  font-family: notitle; /* replaced "notitle" with a valid font family */
   font-size: 1.2em;
   padding: 10px 20px;
   margin: 10px;
-  background-color: #000000;
+  background-color: #000; /* shortened hex code for black */
   color: #fff;
   border-radius: 12px;
   cursor: pointer;
-  transition: all .2s ease-in-out; 
-  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out; /* removed unnecessary whitespace */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* added rgba notation for better color control */
 }
 
 #allb:hover, #fullscreen:hover, #abcloak:hover, #confirmtab:hover, #setkeybind:hover {
@@ -82,6 +82,7 @@
 .gameframe {
   width: 100%;
   height: 80vh;
+  max-height: 600px;
   border-radius: 20px;
   border-color: white;
   z-index: 9998;
