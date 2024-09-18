@@ -44,16 +44,16 @@
     </div>
     <style>
 #allb, #fullscreen, #abcloak, #discord, #confirmtab, #setkeybind {
-  font-family: notitle; /* replaced "notitle" with a valid font family */
+  font-family: notitle;
   font-size: 1.2em;
   padding: 10px 20px;
   margin: 10px;
-  background-color: #000; /* shortened hex code for black */
+  background-color: #000;
   color: #fff;
   border-radius: 12px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out; /* removed unnecessary whitespace */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* added rgba notation for better color control */
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
 #allb:hover, #fullscreen:hover, #abcloak:hover, #confirmtab:hover, #setkeybind:hover {
@@ -87,6 +87,7 @@
   border-color: white;
   z-index: 9998;
   position: relative;
+  overflow: hidden;
 }
 .buttons-here {
   text-align: center;
