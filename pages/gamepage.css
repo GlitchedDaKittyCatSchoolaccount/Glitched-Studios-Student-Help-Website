@@ -12,14 +12,9 @@
   }
   
   #allb:hover, #fullscreen:hover, #abcloak:hover, #confirmtab:hover, #setkeybind:hover {
-    top: -2px;
-    left: -2px;
-    height: calc(100% + 4px);
-    width: calc(100% + 4px);
-    background: linear-gradient(45deg, #fb0094,#0000ff, #00ff00, #ffff00, #ff0000, #fb0094,#0000ff, #00ff00, #ffff00, #ff0000);
-    background-size: 100%;
-    z-index: -1;
-    animation: buttonshadowanimate 20s linear infinite;
+    border: 4px solid white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    transition: all .2s ease-in-out; 
   }
   
   #allb:disabled, #fullscreen:disabled, #abcloak:disabled, #confirmtab:disabled, #setkeybind:disabled {
@@ -77,6 +72,3 @@
     gap: 10px; 
     z-index: 9998;
    }
-   .buttons-here::before {
-
-  }
