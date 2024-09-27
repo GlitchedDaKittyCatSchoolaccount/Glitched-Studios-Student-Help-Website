@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react"
+
 gsap.fromTo( // i have no clue what this is
     ".loading-page",
     { opacity: 1 },
