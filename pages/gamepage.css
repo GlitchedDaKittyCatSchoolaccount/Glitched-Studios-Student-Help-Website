@@ -32,7 +32,7 @@
   }
   .description {
     display: flex;
-    align-items: calc(center - 2px);
+    justify-content: calc(center - 2px);
     align-items: calc(center - 2px);
     text-align: center;
     font-size: 34px;
