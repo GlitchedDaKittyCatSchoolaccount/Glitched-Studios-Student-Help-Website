@@ -32,8 +32,8 @@
   }
   .description {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: calc(center - 2px);
+    align-items: calc(center - 2px);
     text-align: center;
     font-size: 34px;
     background-color: transparent;
