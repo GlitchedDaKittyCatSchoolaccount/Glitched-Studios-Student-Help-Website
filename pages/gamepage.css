@@ -31,15 +31,14 @@
     z-index:9999;
   }
   .description {
-    display: flex;
+    display: block;
     justify-content: center;
-    top: 50%;
     text-align: center;
     font-size: 42px;
     color: white;
-    border: white thin;
+    border: rgb(255, 0, 0) thin;
     border-radius: 60px;
-
+    background: black;
 }
   #allb:hover:disabled, #fullscreen:hover:disabled, #abcloak:hover:disabled, #confirmtab:hover:disabled, #setkeybind:hover:disabled {
     cursor: not-allowed;
