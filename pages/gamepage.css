@@ -33,7 +33,7 @@
   .description {
     display: flex;
     justify-content: center;
-    align-items: center;
+    top: 50%;
     text-align: center;
     font-size: 54px;
     background-color: rgb(175, 175, 175);
