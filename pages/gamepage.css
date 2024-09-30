@@ -30,7 +30,15 @@
     box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
     z-index:9999;
   }
-  
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 54px;
+    background-color: rgb(175, 175, 175);
+    color: white;
+}
   #allb:hover:disabled, #fullscreen:hover:disabled, #abcloak:hover:disabled, #confirmtab:hover:disabled, #setkeybind:hover:disabled {
     cursor: not-allowed;
   }
