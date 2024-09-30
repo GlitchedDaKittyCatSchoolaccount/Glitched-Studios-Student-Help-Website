@@ -39,6 +39,9 @@
     border: rgb(255, 0, 0) thin;
     border-radius: 60px;
     background: black;
+    width: 70%;
+    box-shadow: white;
+    box-shadow: 6px,3px,32px;
 }
   #allb:hover:disabled, #fullscreen:hover:disabled, #abcloak:hover:disabled, #confirmtab:hover:disabled, #setkeybind:hover:disabled {
     cursor: not-allowed;
