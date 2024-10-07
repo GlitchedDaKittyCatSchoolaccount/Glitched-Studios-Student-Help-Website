@@ -85,7 +85,7 @@ function draw() {
   if (!isSpinning) { return }
     
 
-  let ratCount = Math.floor(clicks / 100) + 1
+  let ratCount = 6
   let ratRotation = -(Date.now()/20 % 360) * (dailyMaxViewerCount < 300 ? Math.floor((dailyMaxViewerCount%100/10) + 1) : 2)
 
   angleMode(DEGREES);
