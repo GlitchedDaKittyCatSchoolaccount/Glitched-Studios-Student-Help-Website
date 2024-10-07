@@ -160,7 +160,7 @@ function mouseClicked() {
 
 const updateLiveViewers = ()=>{
   if (!isSpinning) { return }
-  fetch('https://presence.twotwelve.uk/ping').then(
+  fetch('/pages/math/spinningrat/ping.json').then(
     response => response.json()
   ).then(json => {
     let viewerCount = json.live_pings ? json.live_pings : 1
