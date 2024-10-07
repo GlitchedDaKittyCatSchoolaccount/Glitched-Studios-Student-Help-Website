@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: "Pixelated MS Sans Serif";
-  src: url("https://unpkg.com/98.css@0.1.18/fonts/converted/ms_sans_serif.woff") format("woff");
-  src: url("https://unpkg.com/98.css@0.1.18/fonts/converted/ms_sans_serif.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/npm/98.css@0.1.18/fonts/converted/ms_sans_serif.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/npm/98.css@0.1.18/fonts/converted/ms_sans_serif.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -46,26 +46,21 @@ h1 {
 
 a {
   color: white;
-}
-a:focus {
   text-decoration: underline;
 }
 
-header {
+header, footer {
   padding: 8px;
   box-sizing: border-box;
   position: absolute;
-}
-
-footer {
-  padding: 8px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 0; bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+footer {
+  left: 0; bottom: 0;
 }
 
 p {
