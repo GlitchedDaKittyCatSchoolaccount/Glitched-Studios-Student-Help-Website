@@ -15,9 +15,9 @@ let isTouchDevice = 'ontouchstart' in window;
 let muted = false;
 
 function preload() {
-  rat = loadModel('assets/rat/rat.obj',true);
-  ratUV = loadImage('assets/rat/rat.jpg');
-  ratTunes = loadSound(['assets/tunes/tunes.ogg', 'assets/tunes/tunes.mp3']);
+  rat = loadModel('/assets/rat/rat.obj',true);
+  ratUV = loadImage('/assets/rat/rat.jpg');
+  ratTunes = loadSound(['/assets/tunes/tunes.ogg', '/assets/tunes/tunes.mp3']);
 }
 
 function setup() {
@@ -155,7 +155,7 @@ function mouseClicked() {
 
 const updateLiveViewers = ()=>{
   if (!isSpinning) { return }
-  fetch('ping.json').then(
+  fetch('https://presence.twotwelve.uk/ping').then(
     response => response.json()
   ).then(json => {
     let viewerCount = json.live_pings ? json.live_pings : 1
@@ -168,7 +168,7 @@ const updateLiveViewers = ()=>{
     `
     dailyMaxViewerCount = json.max_pings ? json.max_pings : 1
     document.getElementById("highscore").innerHTML = `
-      Daily highscore: ${json.max_pings} | Higher score = faster rat
+      Daily highscore: ${json.max_pings} | Higher score = ${json.max_pings < 100 ? 'faster rat' : 'more rats'}
     `
   }).catch(
     err => {
