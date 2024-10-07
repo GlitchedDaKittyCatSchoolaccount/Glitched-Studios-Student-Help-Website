@@ -15,9 +15,9 @@ let isTouchDevice = 'ontouchstart' in window;
 let muted = false;
 
 function preload() {
-  rat = loadModel('/pages/math/spinningrat/assets/rat/pages/math/spinningrat/assets/rat/rat.obj',true);
-  ratUV = loadImage('/pages/math/spinningrat/assets/rat/assets/rat/rat.jpg');
-  ratTunes = loadSound(['/pages/math/spinningrat/assets/rat/assets/tunes/tunes.ogg', '/pages/math/spinningrat/assets/rat/assets/tunes/tunes.mp3']);
+  rat = loadModel('/pages/math/spinningrat/assets/rat/rat.obj',true);
+  ratUV = loadImage('/pages/math/spinningrat/assets/rat/rat.jpg');
+  ratTunes = loadSound(['/pages/math/spinningrat/assets/tunes/tunes.ogg', '/pages/math/spinningrat/assets/tunes/tunes.mp3']);
 }
 
 function setup() {
