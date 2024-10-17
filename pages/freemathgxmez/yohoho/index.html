@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <head>
+            <title>High School | CAYUGA WILDCATS</title>
+            <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" type="image/png" />
+            <link rel="shortcut icon" href="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" type="image/png" />
+            <link rel="apple-touch-icon" href="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" type="image/png" />
+            <link rel="canonical" href="https://www.cayugaisd.com/high-school" />
+            <meta property="og:title" content="High School  | CAYUGA WILDCATS" />
+            <meta property="og:image" content="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fit/w_2500,h_1330,al_c/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" />
+            <meta property="og:image:width" content="2500" />
+            <meta property="og:image:height" content="1330" />
+            <meta property="og:url" content="https://www.cayugaisd.com/high-school" />
+            <meta property="og:site_name" content="CAYUGA WILDCATS" />
+            <meta property="og:type" content="website" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="High School  | CAYUGA WILDCATS" />
+            <meta name="twitter:image" content="https://static.wixstatic.com/media/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png/v1/fit/w_2500,h_1330,al_c/0f94b6_c97d4a0300c54e3b8249deff0df4995c%7Emv2.png" />
+            <link rel="stylesheet" href="/pages/pages.css">
+            <link rel="stylesheet" href="/pages/gamepage.css">
+
+        </head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo">
+            <span>Student Help</span>
+        </div>
+        <div class="nav-right">
+            <a href="/pages/main.html">Home</a>
+            <a href="/pages/funmathgames.html">Games</a>
+            <a href="/pages/calculator.html">Apps</a>
+            <a href="/pages/coolmath.html">Proxy</a>
+            <a href="/pages/extramath.html">Extra</a>
+        </div>
+    </div>
+   
+
+    <h1>Yohoho</h1>
+    <div class="buttons-here"></div>
+        <button id="fullscreen">Fullscreen</button>
+        <button id="allb" onclick="document.getElementById('gameframe').src = document.getElementById('gameframe').src;">Refresh</button>
+    </div>
+    <iframe id="gameframe" class="gameframe" src="/pages/math/yohoho/"></iframe>
+    <script>
+        document.getElementById('fullscreen').addEventListener('click', function() {
+            var iframe = document.getElementById('gameframe');
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) {
+                iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) { 
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) {
+                iframe.msRequestFullscreen();
+            }
+        });
+    </script>
+</body>
+
+</html>
