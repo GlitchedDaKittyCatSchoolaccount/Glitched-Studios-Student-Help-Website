@@ -3,7 +3,24 @@ User-agent: Googlebot
 Disallow: 
 User-agent: googlebot-image
 Disallow: 
-User-agent: *
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: MSNBot
 Disallow: /
+User-agent: Teoma
+Disallow: /
+User-agent: Gigabot
+Disallow: /
+User-agent: Robozilla
+Disallow: /
+User-agent: Nutch
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: *
+Disallow: 
 Crawl-delay: 120
 Disallow: /cgi-bin/
+Sitemap: https://glitched-studios-student-help-website.vercel.app/sitemap.json
